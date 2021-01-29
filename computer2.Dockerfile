@@ -4,7 +4,7 @@ FROM mcr.microsoft.com/dotnet/framework/sdk:4.8
 SHELL ["powershell", "-Command", "$ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue';"]
 
 # Set hostname
-RUN Rename-Computer -NewName "computer1" -Force
+RUN Rename-Computer -NewName "computer2" -Force
 
 # Allow Powershell remoting:
 #   Start Windows Remote Management service
