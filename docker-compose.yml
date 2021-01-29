@@ -1,0 +1,30 @@
+version: '3.9'
+
+services:
+  computer1:
+    image: computer1:1.0
+    build:
+      context: .
+      dockerfile: computer1.Dockerfile
+    networks:
+      computer-net:
+        aliases:
+          - "computer1"
+    depends_on:
+      - computer2
+    platform: windows/amd64
+
+  computer2:
+    image: computer2:1.0
+    build:
+      context: .
+      dockerfile: computer2.Dockerfile
+    networks:
+      computer-net:
+        aliases:
+          - "computer2"
+    platform: windows/amd64
+   
+networks:
+  computer-net:
+      driver: nat
