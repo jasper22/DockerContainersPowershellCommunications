@@ -13,4 +13,4 @@ Now you should see the that `computer2` start endless pinging of remote server a
 
 Enjoy !  :wink:
 
-P.S. If you encourage any issues please open 'Issue'
+P.S. If you encourage any issues please open ['Issue'](https://github.com/jasper22/DockerContainersPowershellCommunications/issues)
