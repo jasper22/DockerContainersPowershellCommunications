@@ -1,6 +1,6 @@
 # Docker Containers Powershell communications
 
-This is minimal reproducible sample on how to create 2 Docker container and set-up Powershell communication between them
+This is minimal reproducible sample on how to create 2 Docker Windows containers and set-up Powershell communication between them
 
 ## Setup
 
