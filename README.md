@@ -14,3 +14,9 @@ Now you should see the that `computer2` start endless pinging of remote server a
 Enjoy !  :wink:
 
 P.S. If you encourage any issues please open 'Issue'
+
+### Additional resources
+* [How to Configure Windows Remote PowerShell Access for Non-Privileged User Accounts](https://helpcenter.gsx.com/hc/en-us/articles/202447926-How-to-Configure-Windows-Remote-PowerShell-Access-for-Non-Privileged-User-Accounts)
+* [Setting WMI user access permissions using the WMI Control Panel](https://docs.bmc.com/docs/display/public/btco100/Setting+WMI+user+access+permissions+using+the+WMI+Control+Panel)
+* [Ansible: Windows Remote Management](https://cn-ansibledoc.readthedocs.io/zh_CN/latest/user_guide/windows_winrm.html)
+* [Enable PSRemoting via Powershell to Use Remoting Features!](https://www.webservertalk.com/enable-psremoting-via-powershell)
